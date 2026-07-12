@@ -32,7 +32,7 @@
                     </svg>
                 </a>
                 <a
-                    href="mailto:support@arthakula.id"
+                    href="mailto:support@arthakula.web.id"
                     aria-label="Hubungi tim kami"
                     class="inline-flex items-center px-6 py-2.5 text-sm font-medium text-white border border-white/30 rounded-lg hover:bg-white/10 transition-colors duration-200"
                 >

@@ -18,8 +18,8 @@ useSeoMeta({
     ogDescription:
         "Aplikasi pengelolaan keuangan keluarga gratis. Catat pengeluaran harian, atur anggaran bulanan, dan kelola tagihan bersama pasangan dengan mudah dan transparan.",
     ogType: "website",
-    ogUrl: "https://arthakula.id",
-    ogImage: "https://arthakula.id/og-image.svg",
+    ogUrl: "https://arthakula.web.id",
+    ogImage: "https://arthakula.web.id/og-image.svg",
     ogImageAlt: "Arthakula — Aplikasi Pengelolaan Keuangan Keluarga",
     ogImageWidth: "1200",
     ogImageHeight: "630",
@@ -29,7 +29,7 @@ useSeoMeta({
     twitterTitle: "Arthakula — Kelola Keuangan Keluarga Bersama",
     twitterDescription:
         "Aplikasi gratis untuk mengelola keuangan keluarga. Catat, rencanakan, dan kelola tagihan bersama pasangan.",
-    twitterImage: "https://arthakula.id/og-image.svg",
+    twitterImage: "https://arthakula.web.id/og-image.svg",
     twitterImageAlt: "Arthakula — Aplikasi Pengelolaan Keuangan Keluarga",
     twitterSite: "@arthakula",
     robots: "index, follow",
@@ -43,8 +43,8 @@ useSeoMeta({
 useSchemaOrg([
     defineOrganization({
         name: "Arthakula",
-        url: "https://arthakula.id",
-        logo: "https://arthakula.id/logo.svg",
+        url: "https://arthakula.web.id",
+        logo: "https://arthakula.web.id/logo.svg",
         sameAs: [
             "https://twitter.com/arthakula",
             "https://instagram.com/arthakula",
@@ -52,7 +52,7 @@ useSchemaOrg([
         description:
             "Aplikasi pengelolaan keuangan keluarga gratis untuk pasangan dan keluarga Indonesia",
         contactPoint: {
-            email: "support@arthakula.id",
+            email: "support@arthakula.web.id",
             contactType: "customer support",
             areaServed: "ID",
             availableLanguage: "Indonesian",
@@ -60,7 +60,7 @@ useSchemaOrg([
     }),
     defineWebSite({
         name: "Arthakula — Kelola Keuangan Keluarga Bersama",
-        url: "https://arthakula.id",
+        url: "https://arthakula.web.id",
         description:
             "Aplikasi pengelolaan keuangan keluarga gratis untuk pasangan",
         inLanguage: "id",
@@ -68,7 +68,7 @@ useSchemaOrg([
             "@type": "SearchAction",
             target: {
                 "@type": "EntryPoint",
-                urlTemplate: "https://arthakula.id/cari?q={search_term_string}",
+                urlTemplate: "https://arthakula.web.id/cari?q={search_term_string}",
             },
             "query-input": "required name=search_term_string",
         },
@@ -77,7 +77,7 @@ useSchemaOrg([
         name: "Arthakula",
         description:
             "Aplikasi pengelolaan keuangan keluarga gratis — catat pengeluaran, atur anggaran, pantau tagihan bersama pasangan",
-        image: "https://arthakula.id/og-image.svg",
+        image: "https://arthakula.web.id/og-image.svg",
         brand: {
             name: "Arthakula",
         },
@@ -90,10 +90,10 @@ useSchemaOrg([
     {
         "@type": "SoftwareApplication",
         name: "Arthakula",
-        url: "https://arthakula.id",
+        url: "https://arthakula.web.id",
         description:
             "Aplikasi pengelolaan keuangan keluarga gratis — catat pengeluaran, atur anggaran, pantau tagihan bersama pasangan",
-        image: "https://arthakula.id/og-image.svg",
+        image: "https://arthakula.web.id/og-image.svg",
         applicationCategory: "FinanceApplication",
         operatingSystem: "Android, iOS, Web",
         offers: {

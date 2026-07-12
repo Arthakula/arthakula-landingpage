@@ -103,7 +103,7 @@
                         permintaan terkait data pribadi Anda, hubungi kami di:
                     </p>
                     <p class="mt-2">
-                        <strong>Email:</strong> support@arthakula.id<br />
+                        <strong>Email:</strong> support@arthakula.web.id<br />
                     </p>
                 </section>
             </div>
@@ -112,6 +112,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+    sitemap: { changefreq: "monthly", priority: 0.3 },
+});
+
 useHead({
     title: "Kebijakan Privasi — Bagaimana Arthakula Melindungi Data Keuangan Anda",
     meta: [

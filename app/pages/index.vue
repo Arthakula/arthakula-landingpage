@@ -10,6 +10,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+    sitemap: { changefreq: "weekly", priority: 1.0 },
+});
+
 useHead({
     title: "Arthakula — Kelola Keuangan Keluarga Bersama",
     meta: [

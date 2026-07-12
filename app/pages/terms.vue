@@ -117,6 +117,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+    sitemap: { changefreq: "monthly", priority: 0.3 },
+});
+
 useHead({
     title: "Syarat & Ketentuan Penggunaan Layanan Arthakula",
     meta: [

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/seo", "@nuxtjs/sitemap"],
   css: ["~/assets/css/main.css"],
   site: {
-    url: "https://arthakula.id",
+    url: "https://arthakula.web.id",
     name: "Arthakula",
     description:
       "Arthakula adalah platform sederhana untuk mengelola keuangan keluarga bersama pasangan. Catat, rencanakan, dan kelola tagihan dengan transparan.",
@@ -13,6 +13,11 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ["/api/__sitemap__/urls"],
+    autoLastmod: true,
+    defaults: {
+      changefreq: "weekly",
+      priority: 0.5,
+    },
   },
   seo: {
     meta: {

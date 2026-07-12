@@ -325,7 +325,7 @@
 
                         <!-- Notify Me button -->
                         <a
-                            href="mailto:support@arthakula.id?subject=Beri%20tahu%20saya%20saat%20aplikasi%20Android%20tersedia"
+                            href="mailto:support@arthakula.web.id?subject=Beri%20tahu%20saya%20saat%20aplikasi%20Android%20tersedia"
                             aria-label="Beri tahu saya saat aplikasi Android tersedia"
                             class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-teal-700 border border-teal-700/30 rounded-lg hover:bg-teal-50 hover:border-teal-700/50 transition-colors duration-200"
                         >

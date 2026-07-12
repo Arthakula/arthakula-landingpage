@@ -76,6 +76,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+    sitemap: { changefreq: "monthly", priority: 0.7 },
+});
+
 useHead({
     title: "Tentang Arthakula — Aplikasi Keuangan Keluarga Gratis Indonesia",
     meta: [

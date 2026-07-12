@@ -111,6 +111,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+    sitemap: { enabled: false },
+});
+
 useHead({
     title: "Halaman Tidak Ditemukan",
     meta: [

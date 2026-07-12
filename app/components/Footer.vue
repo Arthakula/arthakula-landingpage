@@ -36,7 +36,7 @@
                         >Syarat</a
                     >
                     <a
-                        href="mailto:support@arthakula.id"
+                        href="mailto:support@arthakula.web.id"
                         class="text-sm text-gray-500 hover:text-teal-700 transition-colors duration-200"
                         >Kontak</a
                     >

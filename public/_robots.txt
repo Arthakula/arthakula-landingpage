@@ -1,2 +1,3 @@
 User-Agent: *
 Disallow:
+Sitemap: https://arthakula.web.id/sitemap.xml
