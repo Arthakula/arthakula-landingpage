@@ -38,27 +38,23 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a
-                        href="/#features"
+                    <NuxtLink
+                        to="/#features"
                         aria-label="Lihat fitur Arthakula"
                         class="text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors duration-200"
                     >
                         Fitur
-                    </a>
-                    <a
-                        href="/tentang"
-                        aria-label="Tentang Arthakula"
-                        class="text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors duration-200"
-                    >
+                    </NuxtLink>
+                    <NuxtLink to="/tentang" aria-label="Tentang Arthakula" class="text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors duration-200">
                         Tentang
-                    </a>
-                    <a
-                        href="https://blog.arthakula.web.id"
+                    </NuxtLink>
+                    <NuxtLink
+                        to="https://blog.arthakula.web.id"
                         aria-label="Blog Arthakula"
                         class="text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors duration-200"
                     >
                         Blog
-                    </a>
+                    </NuxtLink>
                 </div>
 
                 <!-- Auth Buttons -->
