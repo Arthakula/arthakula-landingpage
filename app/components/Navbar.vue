@@ -52,6 +52,13 @@
                     >
                         Tentang
                     </a>
+                    <a
+                        href="https://blog.arthakula.web.id"
+                        aria-label="Blog Arthakula"
+                        class="text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors duration-200"
+                    >
+                        Blog
+                    </a>
                 </div>
 
                 <!-- Auth Buttons -->
